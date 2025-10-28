@@ -1,0 +1,286 @@
+
+/* Cuerpo global de la web */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-image: url("img/fondo/fondo.jpg");
+    margin: 40px 40px;   
+}
+
+p {
+    text-align: justify;
+}
+
+
+li {
+    text-align: justify;
+    line-height: 1.5;          
+    margin-bottom: 6px;        
+}
+
+/* Div principal */
+#contenedor {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* Encabezado */
+#encabezado img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Titulos */
+#titulo {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+#titulo h2 {
+    margin: 0 0 8px 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+#titulo hr {
+    height: 0;
+    border: 0;
+    border-top: 3px solid black;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+/* Contenido principal de la pagina (p) */
+#contenido {
+    margin: 18px 0 28px 0;
+}
+#contenido p {
+    margin: 0 0 12px 0;
+    text-align: justify;
+}
+
+/* Bloques de las profesiones */
+.bloques {
+    width: 32%;
+    float: left;
+    margin: 0 1% 20px 0;
+    background: #ffffff;
+    text-align: center;
+}
+
+/* Imagenes dentro de las profesiones */
+.imagenes {
+    width: 100%;
+}
+.imagenes img {
+    width: 100%;
+    height: auto;
+}
+
+/* Titulo de las profesiones */
+.titulo-lista {
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+}
+
+/* Lista de cada bloque de las profesiones */
+.bloque-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Página BioImpresion */
+ 
+/* Imagen central BioImpresion */
+#imagen-destacada img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 14px 0;
+}
+
+/* Posicionamiento de el icono casa */
+#icono-inicio {
+    margin: 6px 0 12px 0;
+}
+
+#icono-inicio img {
+    width: 40px;   
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Infografia España */
+.img-derecha {
+    float: right;
+    width: 300px;       
+    margin: 0 0 10px 16px; 
+}
+.img-derecha img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Iconos inferiores */
+#zona-iconos {
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+#zona-iconos .icono {
+    display: inline-block;
+    margin: 0 8px;
+}
+#zona-iconos .icono img {
+    width: 60px;   
+    height: auto;
+}
+    
+/*  Página Big Data */
+
+/* Imagen intermedia RFID  */
+.imagen-centro {
+    margin: 25px 0;           
+    text-align: center;       
+}
+.imagen-centro img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;       
+    height: auto;
+}
+
+/* H3 página BigData */
+#contenido h3 {
+    font-size: 22px;
+    margin: 20px 0 10px 0;
+    color: #000;
+}
+
+/* Listas BigData*/
+#contenido ul {
+    margin: 10px 40px;        
+    padding: 0;
+}
+#contenido li {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Imagen lateral de las 7vs Big Data */
+.img-derecha {
+    float: right;
+    width: 320px;             
+    margin: 0 0 10px 16px;
+}
+.img-derecha img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Business Intelligence */
+
+/* Contenedor  */
+.bi #contenedor {
+    width: 950px;         
+    padding: 16px 40px;    
+}
+
+/* Títulos  */
+.bi #contenido h3 {
+    font-size: 22px;
+    margin: 24px 0 10px 0;
+    color: #000;
+}
+
+/* Imagen piramide */
+
+.bi .imagen-centro { 
+    text-align: center; 
+    margin: 25px 0; 
+}
+
+.bi .imagen-centro img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;            
+    height: auto;
+}
+
+/* Infografia */
+.img-derecha {
+    float: right;
+    width: 280px;             
+    margin: 0 0 10px 20px;    
+}
+.img-derecha img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Listas  */
+.bi #contenido ul { 
+    margin: 10px 40px; 
+    padding: 0; 
+}
+.bi #contenido li { 
+    margin-bottom: 10px; 
+    text-align: justify; 
+}
+
+/* Iconos  */
+.bi #zona-iconos { 
+    margin-top: 40px; 
+}
+.bi #zona-iconos .icono img { 
+    width: 55px; 
+    height: auto; 
+}
+
+/* Página Diseño de Interfaces */
+
+/* Contenedor  */
+.ui #contenedor {
+    width: 950px;
+    padding: 16px 40px;
+}
+
+/* Imágenes centradas */
+.ui .imagen-centro {
+    text-align: center;
+    margin: 25px 0;
+}
+.ui .imagen-centro img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;        
+    height: auto;
+}
+
+/* Imagen Voz*/
+.ui .img-derecha {
+    float: right;
+    width: 230px;      
+    margin: -20px 0 10px 20px;
+}
+.ui .img-derecha img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Ajuste de títulos */
+.ui #contenido h3 {
+    font-size: 22px;
+    margin: 24px 0 10px 0;
+    color: #000;
+}
+
+
+/* No seria necesario css en la pagina de Inteligencia Artificial, */
+   

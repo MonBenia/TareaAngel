@@ -1,0 +1,42 @@
+/* ===== Menú estilo "enlaces azules subrayados" centrado ===== */
+#menu {    
+  border: 0;
+  margin: 10px 0 16px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;         
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;      
+}
+
+#menu li {
+  display: inline;
+  margin-right: 28px;        
+}
+
+/* Enlaces: azul y subrayado */
+#menu a {
+  color: #0645AD;              /* azul clásico */
+  text-decoration: underline;
+  font-size: 16px;
+  padding: 0;
+  background: transparent;
+  font-weight: normal;
+}
+
+#menu a:hover
+{
+  color: black;              
+}
+
+
+/* Enlace activo */
+#menu a.activo {
+  font-weight: bold;
+  text-decoration: underline;
+  color: red;
+}
