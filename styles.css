@@ -20,9 +20,11 @@ li {
 
 /* Div principal */
 #contenedor {
-    width: 1100px;
+    width: 900px;
     margin: 0 auto;
     padding: 16px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
 }
 
 /* Encabezado */
@@ -34,7 +36,7 @@ li {
 
 /* Titulos */
 #titulo {
-    text-align: center;
+    text-align: left;
     margin: 20px 0 10px 0;
 }
 #titulo h2 {
@@ -46,8 +48,8 @@ li {
 #titulo hr {
     height: 0;
     border: 0;
-    border-top: 3px solid black;
-    width: 120px;
+    border-top: 1px solid black;
+    width: 100%;
     margin: 0 auto;
     border-radius: 2px;
 }
@@ -90,6 +92,13 @@ li {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+/* Usamos este estilo para limpiar los floats y evitar que el icono se situe debajo de las mismas*/
+#profesiones::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 /* Página BioImpresion */
@@ -282,5 +291,6 @@ li {
 }
 
 
-/* No seria necesario css en la pagina de Inteligencia Artificial, */
+/* No seria necesario css en la pagina de Inteligencia Artificial
+    , debido a que reutiliza la mayoria de los estilos */
    

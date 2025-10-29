@@ -1,26 +1,26 @@
-/* ===== Menú estilo "enlaces azules subrayados" centrado ===== */
+/* Estilos del menú de navegación */
 #menu {    
   border: 0;
   margin: 10px 0 16px 0;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;         
 }
-
+/* Lista horizontal y quitamos las viñetas */
 #menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline-block;      
 }
-
+/* Elementos de la lista, los mostramos en linea */
 #menu li {
   display: inline;
   margin-right: 28px;        
 }
 
-/* Enlaces: azul y subrayado */
+/* mostramos los enlaces en color azul y los subrayamos */
 #menu a {
-  color: #0645AD;              /* azul clásico */
+  color: #0645AD;              
   text-decoration: underline;
   font-size: 16px;
   padding: 0;
@@ -28,15 +28,15 @@
   font-weight: normal;
 }
 
+/* Efecto hover - al pasar el ratón por encima */
 #menu a:hover
 {
   color: black;              
 }
 
-
-/* Enlace activo */
+/* Estilo para que se active el enlace de la página actual */
 #menu a.activo {
-  font-weight: bold;
+  font-weight: bold;    
   text-decoration: underline;
   color: red;
 }
