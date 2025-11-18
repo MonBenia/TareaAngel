@@ -294,3 +294,122 @@ li {
 /* No seria necesario css en la pagina de Inteligencia Artificial
     , debido a que reutiliza la mayoria de los estilos */
    
+
+/* Estilos css3 */
+
+
+
+/* Bordes, sombras y transicción */
+#contenedor {
+    border-radius: 8px;                          
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);    
+    transition: box-shadow 0.3s ease;            
+}
+
+#contenedor:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);    
+}
+
+/* Esquinas más suaves y sombra al pasar el ratón */
+#encabezado img {
+    border-radius: 6px;
+    transition: box-shadow 0.3s ease;            
+}
+
+#encabezado img:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+/* Escalado, bordes y sombra en las imagenes grandes */
+.imagen-centro img {
+    border-radius: 6px;                          
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;           
+}
+
+.imagen-centro img:hover {
+    transform: scale(1.02);                     
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+/* Aplicamos lo mismo a las imágenes a la derecha */
+.img-derecha img {
+    border-radius: 6px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.img-derecha img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.22);
+}
+
+/* Efecto tarjeta en las imágenes */
+.bloques {
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.bloques:hover {
+    transform: translateY(-3px);               
+    box-shadow: 0 5px 14px rgba(0,0,0,0.18);
+}
+
+/* Transicion y animación el icono de ir al encabezado */
+
+
+#zona-iconos .icono img {
+    transition: transform 0.3s ease;
+}
+
+
+#zona-iconos .icono img:hover {
+    transform: scale(1.1);
+}
+
+
+#zona-iconos .icono:first-child img {
+    animation: subirBajar 2s ease-in-out infinite;
+}
+
+/* Animación CSS3 */
+@keyframes subirBajar {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-4px); }
+    100% { transform: translateY(0); }
+}
+
+/* Títulos h2 y h3 con sombra más oscura y en parrafos */
+#titulo h2,
+#contenido h3 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.45);
+}
+
+p {
+    text-shadow: 2px 2px 4px rgba(141, 23, 23, 0.45);   
+}
+
+/* Animación de Mario moviendose por encima del menú*/
+#mario {       
+    bottom: 20px;            
+    left: -80px;                        
+    pointer-events: none;     
+}
+
+#mario img {
+    width: 70px;              
+    height: auto;
+    animation: caminar 10s linear infinite;
+}
+
+/* Animación de caminar por la pantalla*/
+@keyframes caminar {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); 
+    }
+}

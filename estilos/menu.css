@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
 /* Estilos del menú de navegación */
 #menu {    
   border: 0;
@@ -39,4 +41,25 @@
   font-weight: bold;    
   text-decoration: underline;
   color: red;
+}
+
+/* Mejoras CSS3 */
+
+
+/* Cambio de tipografía, despues de importarla en el inicio */
+#menu {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+/* Transiciones y sombra en el texto del menú */
+#menu a {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.25);   
+    transition: color 0.3s ease,                
+                text-shadow 0.3s ease;          
+}
+
+/* Hover, texto negro y sombra más fuerte */
+#menu a:hover {
+    color: black;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.35);   
 }
